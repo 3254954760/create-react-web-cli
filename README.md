@@ -11,3 +11,7 @@
 流行的 命令行加载指示器（spinner）库，用于在 Node.js CLI 脚本里显示加载动画
 ## download-git-repo
 git 下载代码
+
+## 如何启动？
+1. npm link ly-create-web-cli
+2. ly-create-web-cli create
