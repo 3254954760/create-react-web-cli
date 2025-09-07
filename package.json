@@ -1,0 +1,41 @@
+{
+    "name": "ly-create-web-cli",
+    "version": "1.0.0",
+    "description": "搭建脚手架",
+    "main": "index.js",
+    "type": "module",
+    "bin": {
+        "ly-create-web-cli": "index.js"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/3254954760/create-react-web-cli.git"
+    },
+    "author": "liyong",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/3254954760/create-react-web-cli/issues"
+    },
+    "homepage": "https://github.com/3254954760/create-react-web-cli#readme",
+    "dependencies": {
+        "commander": "^13.1.0",
+        "cross-env": "^7.0.3",
+        "download-git-repo": "^3.0.2",
+        "husky": "^8.0.0",
+        "inquirer": "^12.9.4",
+        "ora": "^8.2.0",
+        "prettier": "^3.6.2"
+    },
+    "lint-staged": {
+        "*.{js,jsx,tsx}": [
+            "prettier --write"
+        ],
+        "*.{css,scss,less}": [
+            "prettier --write"
+        ]
+    }
+}
